@@ -27,4 +27,7 @@ Route::middleware('auth')->group(function () {
     Route::put('profile', [\App\Http\Controllers\ProfileController::class, 'update'])->name('profile.update');
     Route::get('profile', [\App\Http\Controllers\ProfileController::class, 'create'])->name('employee.create');
     Route::get('profile', [\App\Http\Controllers\ProfileController::class, 'store'])->name('employee.store');
+
+    Route::get('create', [\App\Http\Controllers\ProfileController::class, 'create'])->name('employee.create');
+    Route::post('store', [\App\Http\Controllers\ProfileController::class, 'store'])->name('employee.store');
 });
