@@ -59,8 +59,8 @@
                                         <td>{{$items->zip}}</td>
                                         <td>{{$items->action}}</td>
                                         <td> 
-                                                <span class="badge bg-success"><a class="btn btn-success mx-3"><h5>Edit</h5></a></span>
-                                                <span class="badge bg-danger"><a class="btn btn-danger mx-3"><h5>Delete</h5></a></span>
+                                                <span class="badge bg-success"><a href="{{route}}" class="btn btn-success mx-3"><h5>Edit</h5></a></span>
+                                                <span class="badge bg-danger"><a href="{{route}}" class="m-3 p-lg-5"><h5>Delete</h5></a></span>
                                         </td>       
                                     </tr>
                                 </tbody>
